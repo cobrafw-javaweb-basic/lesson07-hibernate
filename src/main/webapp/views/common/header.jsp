@@ -11,11 +11,14 @@
 				<li class='nav-item <c:if test="${param.current == 'index'}">active</c:if>'>
 					<a class="nav-link" href="<c:url value="/" />">Home</a>
 				</li>
-				<li class='nav-item <c:if test="${param.current == 'el'}">active</c:if>'>
-					<a class="nav-link" href="<c:url value="/views/el/index.jsp" />">Expression Language - EL</a>
+				<li class='nav-item <c:if test="${param.current == 'Categories'}">active</c:if>'>
+					<a class="nav-link" href="<c:url value="/list-categories" />">Categories</a>
 				</li>
-				<li class='nav-item <c:if test="${param.current == 'jstl'}">active</c:if>'>
-					<a class="nav-link" href="<c:url value="/views/jstl/index.jsp" />">Java Standard Tab Library - JSTL</a>
+				<li class='nav-item <c:if test="${param.current == 'Products'}">active</c:if>'>
+					<a class="nav-link" href="<c:url value="/list-products" />">Products</a>
+				</li>
+				<li class='nav-item <c:if test="${param.current == 'Accounts'}">active</c:if>'>
+					<a class="nav-link" href="<c:url value="/list-accounts" />">Accounts</a>
 				</li>
 			</ul>
 		</div>

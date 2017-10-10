@@ -19,10 +19,7 @@
 				</p>
 				<ul>
 					<li>
-						<a href="<c:url value="/index.jsp" />">Sample 1</a>
-					</li>
-					<li>
-						<a href="<c:url value="/index.jsp" />">Sample 1</a>
+						<a href="<c:url value="/list-categories" />">Manage Categories</a>
 					</li>
 				</ul>
 			</div>
